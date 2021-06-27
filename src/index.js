@@ -58,3 +58,20 @@
 
 // const func1 = (name = "ゲスト") => console.log(`こんにちは!${name}さん`);
 // func1();
+
+// スプレッド構文
+
+// const arr = [10, 20];
+// const func = (num1, num2) => console.log(num1 + num2);
+// func(arr[0], arr[1]);
+// func(...arr);
+
+// const arr1 = [10, 20];
+// const arr2 = [30, 40];
+// const arr3 = [...arr1, ...arr2];
+// console.log(arr3);
+
+// const arr4 = [10, 20, 30, 40, 50];
+// const arr5 = [...arr4];
+
+// console.log(arr5);
