@@ -75,3 +75,46 @@
 // const arr5 = [...arr4];
 
 // console.log(arr5);
+
+// ++++++++++++++++++++++++++
+// mapメソッド、filterメソッド
+// ++++++++++++++++++++++++++
+
+// const arr = ["たくろう", "たなか", "たんじろう"];
+
+// arr.map((name)=> {
+//   console.log(`${name}さん`)
+// });
+
+// const newArr = arr.map((name)=>`${name}さん`);
+// const newArr = arr.map((name)=>{
+//   return `${name}さん`
+// });
+
+// console.log(newArr)
+
+// const numArr = [1, 2, 3, 4, 5];
+// const newNumArr = numArr.filter((num)=>{
+//   return num % 2 === 1;
+// });
+
+// console.log(newNumArr)
+
+// ++++++++++++++++++++++++++
+// 三項演算子
+// ++++++++++++++++++++++++++
+
+// const val = 2 > 100 ? "ok" : "no";
+// console.log(val);
+
+// const num = 1200
+
+// const numType = typeof num === "number" ? num.toLocaleString() : "数値を入力してください";
+
+// console.log(numType);
+
+// const checkedNum = ((num1, num2)=> {
+//   return num1 + num2 > 100 ? "100超えてる" : "100以下";
+// });
+
+// console.log(checkedNum(100, 200));
